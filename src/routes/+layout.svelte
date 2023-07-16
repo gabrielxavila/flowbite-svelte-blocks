@@ -27,15 +27,11 @@
     <header class="sticky top-0 z-40 flex-none mx-auto w-full bg-white dark:bg-gray-900">
       <Navbar let:hidden let:toggle fluid={false} {navClass} {navDivClass}>
         <NavBrand href="/">
-          <img src="/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Flowbite
+            Warrior Talk
           </span>
         </NavBrand>
         <div class="flex items-center lg:order-2">
-          <a href="https://github.com/shinokada/flowbite-svelte-blocks"
-            ><Button>Get started</Button></a
-          >
           <DarkMode {btnClass} />
           <NavHamburger
             on:click={toggle}
@@ -48,10 +44,10 @@
           ulClass="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
         >
           <NavLi href="/">Home</NavLi>
-          <NavLi href="/example">Example</NavLi>
-          <NavLi href="https://flowbite-svelte-blocks.pages.dev/" target="_blank">Docs</NavLi>
-          <NavLi href="https://github.com/shinokada/flowbite-svelte-blocks">GitHub</NavLi>
-          <NavLi href="https://flowbite-svelte.com">Flowbite-Svelte</NavLi>
+          <NavLi href="/example">Real Estate</NavLi>
+          <NavLi href="https://github.com/shinokada/flowbite-svelte-blocks">Warrior Talk</NavLi>
+          <NavLi href="https://flowbite-svelte-blocks.pages.dev/" target="_blank">Investing</NavLi>
+          <NavLi href="https://flowbite-svelte.com">Contact</NavLi>
         </NavUl>
       </Navbar>
     </header>
@@ -70,13 +66,12 @@
     <p
       class="mb-6 text-base text-gray-500 md:mb-10 dark:text-gray-400 md:text-center md:text-xl lg:px-20 xl:px-56"
     >
-      Do you want to get notified when a new component is added to Flowbite? Sign up for our
-      newsletter and you will be among the first to find out about new features, components,
-      versions, and tools.
+      Do you want to get notified with the latest Warrior Talks? Sign up for our
+      newsletter and you will be among the first to find out.
     </p>
     <div id="revue-embed" class="mb-4">
       <form
-        action="https://app.convertkit.com/forms/4692392/subscriptions"
+        action="/"
         method="post"
         id="revue-form"
         name="revue-form"
